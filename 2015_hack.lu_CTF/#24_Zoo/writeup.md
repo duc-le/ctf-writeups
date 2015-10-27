@@ -166,7 +166,7 @@ QWORD h = (H1 ^ prev_x) | (H2 ^ prev_y);
 write(ev, &h, 8);
 ```
 
-For the value written to **ev** equal zero we should have **H1 == prev_x** and **H2 == prev_y**. So the last values of **x** and **y** can be generated from name's checksum.
+For the value written to **ev** being equal zero we should have **H1 == prev_x** and **H2 == prev_y**. So the last values of **x** and **y** can be generated from name's checksum.
 
 Let's examine the 2nd location of the **write** operation, when **dx > 0**:
 ```c
