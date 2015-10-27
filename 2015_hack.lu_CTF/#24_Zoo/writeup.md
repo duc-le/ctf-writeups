@@ -386,10 +386,13 @@ Please note that for some names we cannot find the appropriated license code.
 Below is an example of the succeeded generation:
 
 > hello hndlpcngfdlnhg!
+
 > starting the license checker for you...
 
 > your name: your license code: 
+
 > flag{this is flag, plz submit me}
+
 > wrapper: read from child
 
 So the flag is **flag{this is flag, plz submit me}**
