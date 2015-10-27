@@ -105,10 +105,10 @@ So here's how we should enter to get the flag:
 
 Here's our example input while connecting to **school.fluxfingers.net:1527**:
 
-* "**420B65F7**"
-* "**12278F03**"
-* "**12278F0@**"
-* "**952A7224**"
+* **420B65F7**
+* **12278F03**
+* **12278F0@**
+* **952A7224**
 
 And we have the following responses from server:
 
@@ -126,9 +126,9 @@ sure! the head librarian is allowed to know about all the books!
 
 Then we know the flag file name is "16F7F4D391F030CF". We connect to **school.fluxfingers.net:1527** again and enter the following sequences:
 
-* "**F1140B88**"
-* "**16F7F4D3**"
-* "**91F030CF**"
+* **F1140B88**
+* **16F7F4D3**
+* **91F030CF**
 
 Here's how the server responses:
 
