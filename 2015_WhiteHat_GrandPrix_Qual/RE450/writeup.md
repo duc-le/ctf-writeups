@@ -137,7 +137,7 @@ Back to **CDialog::OnInitDialog** at **0x2300**, there are just one small suspic
 .text:0140002455                 call    WTF_DoJob
 .text:014000245A                 nop
 ```
-The application initializes an instance of an unknown class that we named **WTF**. This class has method table at **0x210DA8**. From there we can find all methods and analyze the data structure of the class. Here's the pseudo code of the **WTF** class declaration:
+The application initializes an instance of an unknown class that we named **WTF**. This class has method table at **0x210DA8**. From there we can find all methods and analyze the data structure of the class. Here's the pseudo code of the **WTF** class:
 
 ```C
 int WTF::DoJob() {
