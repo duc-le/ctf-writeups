@@ -153,6 +153,7 @@ Then delete it:
     gpg> deluid 1
 
 Output:
+    
     Really remove this user ID? (y/N) y
     
     pub  1024R/5EB7CB21  created: 2008-10-30  expires: never       usage: SCEA
