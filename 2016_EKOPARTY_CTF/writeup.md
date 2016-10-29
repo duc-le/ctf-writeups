@@ -84,7 +84,7 @@ We then saved the generated pgp private key block into a file called **pgp_priva
 ### Importing PGP key
 Import the private key:
 
-    gpg --import --allow-non-selfsigned-uid pgp_private`
+    gpg --import --allow-non-selfsigned-uid pgp_private
 
 Output:
 
