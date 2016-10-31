@@ -7,7 +7,7 @@
 
 >Type | bits/key ID | Date | user ID
 --- | --- | --- | ---
-pub | 1024R/5EB7CB21 | 2008-10-30 | Fake Satoshi EKOPARTY12 (PiggyBird) satoshin@gmx.com
+pub | 1024R/5EB7CB21 | 2008-10-30 | Fake Satoshi EKOPARTY12 (TeamName) satoshin@gmx.com
 
 > http://a493e192124c317fc34511a73d63d1ae7334e132.ctf.site:40000/
 
@@ -123,9 +123,9 @@ At the **gpg>** prompt:
     gpg> adduid
     Real name: Fake Satoshi EKOPARTY12
     Email address: satoshin@gmx.com
-    Comment: PiggyBird
+    Comment: TeamName
     You selected this USER-ID:
-        "Fake Satoshi EKOPARTY12 (PiggyBird) <satoshin@gmx.com>"
+        "Fake Satoshi EKOPARTY12 (TeamName) <satoshin@gmx.com>"
     
     Change (N)ame, (C)omment, (E)mail or (O)kay/(Q)uit? O
     
@@ -134,7 +134,7 @@ Output:
     pub  1024R/5EB7CB21  created: 2008-10-30  expires: never       usage: SCEA
                          trust: unknown       validity: unknown
     [ unknown] (1). Scallion UID (replace me)
-    [ unknown] (2). Fake Satoshi EKOPARTY12 (PiggyBird) <satoshin@gmx.com>
+    [ unknown] (2). Fake Satoshi EKOPARTY12 (TeamName) <satoshin@gmx.com>
 
 
 Now we just need to delete the original user ID. First select it:
@@ -146,7 +146,7 @@ Output:
     pub  1024R/5EB7CB21  created: 2008-10-30  expires: never       usage: SCEA
                          trust: unknown       validity: unknown
     [ unknown] (1)* Scallion UID (replace me)
-    [ unknown] (2). Fake Satoshi EKOPARTY12 (PiggyBird) <satoshin@gmx.com>
+    [ unknown] (2). Fake Satoshi EKOPARTY12 (TeamName) <satoshin@gmx.com>
 
 Then delete it:
 
@@ -158,7 +158,7 @@ Output:
     
     pub  1024R/5EB7CB21  created: 2008-10-30  expires: never       usage: SCEA
                          trust: unknown       validity: unknown
-    [ unknown] (1). Fake Satoshi EKOPARTY12 (PiggyBird) <satoshin@gmx.com>
+    [ unknown] (1). Fake Satoshi EKOPARTY12 (TeamName) <satoshin@gmx.com>
 
 Finally we just save the result:
 
