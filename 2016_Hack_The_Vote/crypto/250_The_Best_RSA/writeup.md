@@ -32,6 +32,8 @@ This seems to be the easiest part, but it took us several hours to perform the c
 
 Here's our [script](https://github.com/duc-le/ctf-writeups/blob/master/2016_Hack_The_Vote/crypto/250_The_Best_RSA/solve_best_rsa.py) to factorize **n**, decrypt **c** and save the plaintext to a given file.
 The result is actually a gif file:
+
 ![flag](https://github.com/duc-le/ctf-writeups/blob/master/2016_Hack_The_Vote/crypto/250_The_Best_RSA/flag.gif)
 
-The flag is: **flag{s4ved_by_CH1N4_0nc3_aga1n}**
+### The flag
+**flag{s4ved_by_CH1N4_0nc3_aga1n}**
