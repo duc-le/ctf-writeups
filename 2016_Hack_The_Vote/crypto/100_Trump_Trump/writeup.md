@@ -7,7 +7,7 @@ With Trump about to be in office, autographed photos of him are selling like wil
 
 [trump](https://github.com/duc-le/ctf-writeups/blob/master/2016_Hack_The_Vote/crypto/100_Trump_Trump/challenge/trump.04a0d9783458ec220e8ba41f4fb3d0e039750b3d79945a5e941f1bfb55cf68fc.jpg)
 
-[trumpkey]https://github.com/duc-le/ctf-writeups/blob/master/2016_Hack_The_Vote/crypto/100_Trump_Trump/challenge/trumpkey.40d05be69f643e65ca35d8d6db10afcdaedc938c8aac6821d3cc559655ee6828
+[trumpkey](https://github.com/duc-le/ctf-writeups/blob/master/2016_Hack_The_Vote/crypto/100_Trump_Trump/challenge/trumpkey.40d05be69f643e65ca35d8d6db10afcdaedc938c8aac6821d3cc559655ee6828)
 
 author's irc nick: negasora
 
