@@ -27,7 +27,7 @@ In normal RSA signing scheme, the hash of the data is signed, not the data. We f
 
 We used the followed code snippet to get the decimal number **m** of the photo to be signed:
 
-'''python
+```python
 import gmpy2
 import binascii
 
@@ -37,7 +37,7 @@ data = f.read()
 f.close()
 
 print gmpy2.mpz(binascii.hexlify(data), base=16) % N
-'''
+```
 
 And here is **m**:
 
@@ -95,5 +95,7 @@ The generated value of **s** also did not reveal the flag. So we entered it to t
     ffd8ffe000104a46494600010101006000600000ffdb004300030202030202030303030403....85038562057ffd9
     
 The returned signature now is not a decimal number, but a hex encoded of an JPEG image. And here we get the flag:
+
 ![the flag](https://github.com/duc-le/ctf-writeups/blob/master/2016_Hack_The_Vote/crypto/100_Trump_Trump/flag.jpeg)
+
 **flag{y0u_c4n'T_duMp_TrUmp}**
