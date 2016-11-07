@@ -7,7 +7,7 @@ At his last rally, Trump made an interesting statement:
 The more bits I have, the more secure my cyber, and my modulus is YUUUUUUUUUUUUUGE
 We don't believe his cyber is as secure as he says it is. See if you can break it for us
 
-best_rsa
+[best_rsa](https://github.com/duc-le/ctf-writeups/blob/master/2016_Hack_The_Vote/crypto/250_The_Best_RSA/challenge/best_rsa.878a518bf7012add6d071f3b52562e8b102e72a0cc815aee7cb007cdc03c7714.txt)
 
 author's irc nick: krx
 
