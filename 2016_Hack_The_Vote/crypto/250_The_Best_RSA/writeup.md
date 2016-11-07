@@ -25,7 +25,7 @@ By factorizing the modulus **n** into primes p1, p2, p3 ... we could use the [Eu
 
 where phi is the Euler's totient function.
 
-### Decrypt the cipher text
+### Decrypting the cipher text
 This seems to be the easiest part, but it took us several hours to perform the calculation to decrypt the given cipher text:
 
 > plain_text = c<sup>e</sup> (mod n)
